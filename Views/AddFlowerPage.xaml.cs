@@ -17,4 +17,9 @@ public partial class AddFlowerPage : ContentPage
     {
         Shell.Current.GoToAsync("..");
     }
+
+    private void BtnAddFlower_OnClicked(object sender, EventArgs e)
+    {
+        throw new NotImplementedException();
+    }
 }

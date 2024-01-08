@@ -5,12 +5,35 @@
              x:Class="MauiApp_S1.Views.AddFlowerPage"
              Title="Add Flower">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Přidat kytku"></Label>
+        <StackLayout VerticalOptions="Center" Spacing="20">
+            <Label Text="Přidat kytku"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   ></Label>
+            
+            <Entry 
+                x:Name="FlowerName"
+                HorizontalOptions="Center"
+                ></Entry>
+            
+            <Entry 
+                x:Name="FlowerType"
+                HorizontalOptions="Center"
+            ></Entry>
+            
+            
+            <Button 
+                Text="Přidat"
+                x:Name="BtnAddFlower"
+                Clicked="BtnAddFlower_OnClicked"
+                HorizontalOptions="Center"
+            ></Button>
+            
             <Button 
                 Text="Zpět"
                 x:Name="BtnBack"
                 Clicked="BtnBack_OnClicked"
+                HorizontalOptions="Center"
             ></Button>
         </StackLayout>
     </ContentPage.Content>
