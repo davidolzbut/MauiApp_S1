@@ -9,8 +9,10 @@ public partial class MainPage : ContentPage
         InitializeComponent();
     }
 
+    // event
     private void OnCounterClicked(object sender, EventArgs e)
     {
+        // State
         count++;
 
         if (count == 1)
