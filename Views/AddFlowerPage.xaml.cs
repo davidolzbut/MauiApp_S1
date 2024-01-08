@@ -12,4 +12,9 @@ public partial class AddFlowerPage : ContentPage
     {
         InitializeComponent();
     }
+
+    private void BtnBack_OnClicked(object sender, EventArgs e)
+    {
+        Shell.Current.GoToAsync("..");
+    }
 }

@@ -4,6 +4,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp_S1.Views.FlowersPage">
     <ContentPage.Content>
-        
+        <StackLayout>
+            <Label Text="Moje kytky"></Label>
+            <Button 
+                Text="Přidat kytku"
+                x:Name="BtnAddFlower"
+                Clicked="BtnAddFlower_OnClicked"
+                ></Button>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
